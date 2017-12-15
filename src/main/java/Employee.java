@@ -5,13 +5,19 @@
  */
 public class Employee {
 
+    /**
+     *name of the employee.
+     */
     private String name;
+    /**
+     * the manager of an employee.
+     */
     private String manager;
 
     /**
      * Constructor for initialization.
-     * @param name
-     * @param manager
+     * @param name the name of the employee to create.
+     * @param manager the manager of the employee.
      */
     public Employee(final String name, final String manager) {
         this.name = name;
